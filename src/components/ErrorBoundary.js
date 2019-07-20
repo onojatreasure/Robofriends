@@ -1,8 +1,8 @@
-import React, { component } from 'react';
+import React, { Component } from 'react';
 
-class ErrorBoundary extends component {
+class ErrorBoundary extends Component {
     constructor(props) {
-        super();
+        super(props);
         this.state = {
             hasError: false
         }
