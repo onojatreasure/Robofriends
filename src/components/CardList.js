@@ -3,7 +3,7 @@ import Card from './Card';
 
 const CardList = ({robots}) => {
     return (
-        <div>
+        <div style={{overflow: 'auto'}}>
     {
     robots.map((user, i) => {
         return  (
